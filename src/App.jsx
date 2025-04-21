@@ -2,6 +2,7 @@ import Sidebar from './components/Sidebar';
 import ChartView from './components/ChartView';
 import SearchBox from './components/SearchBox';
 import Header from './components/Header';
+import ChartComponent from './components/ChartComponent';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <main className="main-content">
           <SearchBox />
           <ChartView />
+          <ChartComponent />
+
         </main>
       </div>
     </div>
